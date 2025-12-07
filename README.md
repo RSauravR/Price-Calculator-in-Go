@@ -63,6 +63,7 @@ Navigate to the project's root directory and run:
 
 ```bash
 go run .
+```
 
 ### Output
 Terminal Logs:
