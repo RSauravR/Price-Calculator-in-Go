@@ -23,12 +23,12 @@ The primary goal of this project is to provide a practical, hands-on demonstrati
 
 The codebase is organized into clear, functional packages:
 Price-Calculator-Project/
-*|
-*├── main.go               # Orchestrates concurrent jobs and handles results
-*├── prices/
-*│   └── prices.go         # Defines TaxIncludedPriceJob struct and core processing logic
-*├── fileMananger/
-*│   └── fileMananger.go   # Handles file I/O operations (read input, write JSON output)
-*├── conversion/
-*│   └── conversion.go     # Utility for safe string-to-float array conversion
-*└── prices.txt            # Input file containing raw prices (one per line)
+* **|
+* **├── main.go               # Orchestrates concurrent jobs and handles results
+* **├── prices/
+* **│   └── prices.go         # Defines TaxIncludedPriceJob struct and core processing logic
+* **├── fileMananger/
+* **│   └── fileMananger.go   # Handles file I/O operations (read input, write JSON output)
+* **├── conversion/
+* **│   └── conversion.go     # Utility for safe string-to-float array conversion
+* **└── prices.txt            # Input file containing raw prices (one per line)
