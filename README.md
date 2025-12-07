@@ -63,3 +63,30 @@ Navigate to the project's root directory and run:
 
 ```bash
 go run .
+
+### Output
+Terminal Logs:
+Done!
+Done!
+Done!
+Done!
+
+Generated Files:
+Four JSON files will be created in the root directory:
+* result_0.json
+* result_7.json
+* result_10.json
+* result_15.json
+
+Example content of result_10.json:
+[
+  {
+    "OriginalPrice": 100.0,
+    "TaxIncludedPrice": 110.0
+  },
+  {
+    "OriginalPrice": 55.5,
+    "TaxIncludedPrice": 61.05
+  }
+]
+
